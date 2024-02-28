@@ -1,0 +1,64 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "short_name": "MES4 PA",
+  "name": "MES4 PA App Golang + React",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": ".",
+  "id": "/MES4_PA_FE_PROD/",
+  "display_override": ["fullscreen", "minimal-ui"],
+  "display": "standalone",
+  "theme_color": "#111d2c",
+  "background_color": "#ffffff",
+  "shortcuts" : [
+    {
+      "name": "Events",
+      "url": "/MES4_PA_FE_PROD/",
+      "description": "Events",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+
+    },
+    {
+      "name": "New event",
+      "url": "/MES4_PA_FE_PROD/new-event",
+      "description": "New event",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+
+    }
+  ],
+  "categories": ["events", "react", "go", "fiber"],
+  "screenshots" : [
+    {
+      "src": "screenshots_wide.png",
+      "sizes": "1903x1879",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Homescreen"
+    },
+    {
+      "src": "screenshots_narrow.png",
+      "sizes": "1290x2491",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Homescreen"
+    }
+  ]
+
+}

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/MES4_PA_FE_PROD/static/css/main.f855e6bc.css",
+    "main.js": "/MES4_PA_FE_PROD/static/js/main.089e40f0.js",
+    "static/js/453.a6a97343.chunk.js": "/MES4_PA_FE_PROD/static/js/453.a6a97343.chunk.js",
+    "service-worker.js": "/MES4_PA_FE_PROD/service-worker.js",
+    "static/media/logo.svg": "/MES4_PA_FE_PROD/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "index.html": "/MES4_PA_FE_PROD/index.html",
+    "main.f855e6bc.css.map": "/MES4_PA_FE_PROD/static/css/main.f855e6bc.css.map",
+    "main.089e40f0.js.map": "/MES4_PA_FE_PROD/static/js/main.089e40f0.js.map",
+    "453.a6a97343.chunk.js.map": "/MES4_PA_FE_PROD/static/js/453.a6a97343.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.089e40f0.js"
+  ]
+}
