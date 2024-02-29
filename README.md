@@ -1,10 +1,42 @@
+
 # MES4 PA
+
+Projeto no Âmbito de Programação Avançada para a Internet
+
+O projeto é composto por:
+
+- **Backend:** Golang + FiberGo
+- **Frontend:** React.js (Create React App) + Server-Side Rendering (HTMX)
+- **UI Frameworks:** Ant Design (React) + Tailwind CSS (HTMX)
+
+Algumas Tecnologias Frontend:
+
+- WebSockets
+- Web Storage API
+- Network Information API
+- PWA
+- Web Share API
+- Vibration API
+- Navigator Interface
+- HTMX (hx-get)
+
+## Stack
+
+| Componente | Tecnologia        |
+|------------|-------------------|
+| Backend    | Golang + FiberGo  |
+| Frontend   | React.js + HTMX   |
+| UI         | Ant Design + Tailwind CSS |
+
+## Arquitetura Geral
+
+![](MES4_PA.svg)
 
 ## GitHub Repos
 
-(BE) <https://github.com/joaosgomes/MES4_PA_API>
-
-(FE) <https://github.com/joaosgomes/MES4_PA_FE>
+- (BE) [https://github.com/joaosgomes/MES4_PA_API](https://github.com/joaosgomes/MES4_PA_API)
+- (FE) [https://github.com/joaosgomes/MES4_PA_FE](https://github.com/joaosgomes/MES4_PA_FE)
+- (FE PROD DEVMODE = false) [https://github.com/joaosgomes/MES4_PA_FE](https://github.com/joaosgomes/MES4_PA_FE)
 
 ## API
 
@@ -18,18 +50,18 @@
 ````console
 
 .
+├───components
+│   ├───layouts
+│   ├───pages
+│   ├───ui
+│   └───utils
 ├───config
+├───constants
 ├───controllers
-├───db
-├───docs
-├───models
-├───public
-│   ├───scripts
-│   └───styles
-├───repository
 ├───services
-├───utils
-└───views
+│   └───db
+└───utils
+
 ````
 
 #### Go Packeges Used
